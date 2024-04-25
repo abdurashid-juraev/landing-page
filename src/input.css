@@ -147,7 +147,21 @@ header {
   .shadow-el4 {
     display: none;
   }
-  header {
-    display: none;
+  .open {
+    right: 0 !important;
   }
+}
+.blur {
+  backdrop-filter: blur(18px);
+  background-color: rgba(15, 15, 15, 0.4);
+}
+@media (max-width: 800px) {
+  .nav {
+    backdrop-filter: blur(18px);
+    background-color: rgba(15, 15, 15, 0.4);
+    height: 100vh;
+  }
+}
+.fixed-body {
+  overflow: hidden;
 }

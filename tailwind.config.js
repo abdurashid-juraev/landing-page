@@ -8,7 +8,7 @@ module.exports = {
     screens: {
       xl: "1300px",
       lg: "1024px",
-      md: "820px",
+      md: "800px",
       sm: "320px",
     },
 
@@ -47,5 +47,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-hamburgers")],
 };
