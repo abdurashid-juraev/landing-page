@@ -157,8 +157,8 @@ header {
 }
 @media (max-width: 800px) {
   .nav {
-    backdrop-filter: blur(18px);
     background-color: rgba(15, 15, 15, 0.4);
+    background-color: rgba(15, 15, 15, 0.9);
     height: 100vh;
   }
 }
