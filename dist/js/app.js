@@ -32,6 +32,7 @@ const swiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
 const tham = document.querySelector(".tham");
 const nav = document.querySelector(".nav");
 const body = document.querySelector("body");
@@ -41,3 +42,5 @@ tham.addEventListener("click", () => {
   nav.classList.toggle("open");
   body.classList.toggle("fixed-body");
 });
+
+AOS.init();

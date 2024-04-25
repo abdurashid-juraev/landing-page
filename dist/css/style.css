@@ -1860,13 +1860,6 @@ video {
   -webkit-line-clamp: 1;
 }
 
-.line-clamp-2 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-}
-
 .line-clamp-3 {
   overflow: hidden;
   display: -webkit-box;
@@ -1924,10 +1917,6 @@ video {
   height: 1.25rem;
 }
 
-.h-52 {
-  height: 13rem;
-}
-
 .h-6 {
   height: 1.5rem;
 }
@@ -1942,6 +1931,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-52 {
+  height: 13rem;
 }
 
 .min-h-52 {
@@ -2010,6 +2003,10 @@ video {
 
 .overflow-x-clip {
   overflow-x: clip;
+}
+
+.overflow-y-clip {
+  overflow-y: clip;
 }
 
 .break-words {
@@ -2165,10 +2162,6 @@ video {
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .pt-24 {
@@ -2698,12 +2691,12 @@ header {
     padding-top: 2.5rem;
   }
 
-  .sm\:pt-6 {
-    padding-top: 1.5rem;
-  }
-
   .sm\:pt-12 {
     padding-top: 3rem;
+  }
+
+  .sm\:pt-6 {
+    padding-top: 1.5rem;
   }
 
   .sm\:text-center {
@@ -2722,10 +2715,6 @@ header {
 }
 
 @media (min-width: 768px) {
-  .md\:static {
-    position: static;
-  }
-
   .md\:relative {
     position: relative;
   }
@@ -2767,20 +2756,16 @@ header {
     width: 83.333333%;
   }
 
+  .md\:w-6\/12 {
+    width: 50%;
+  }
+
   .md\:w-68 {
     width: 68px;
   }
 
   .md\:w-\[523px\] {
     width: 523px;
-  }
-
-  .md\:w-auto {
-    width: auto;
-  }
-
-  .md\:w-6\/12 {
-    width: 50%;
   }
 
   .md\:grid-cols-2 {
@@ -2810,11 +2795,6 @@ header {
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .md\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
   }
 
   .md\:px-5 {
@@ -2880,14 +2860,6 @@ header {
     width: auto;
   }
 
-  .lg\:w-\[523px\] {
-    width: 523px;
-  }
-
-  .lg\:w-6\/12 {
-    width: 50%;
-  }
-
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -2904,11 +2876,6 @@ header {
   .lg\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .lg\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
   }
 
   .lg\:py-0 {
@@ -2937,18 +2904,6 @@ header {
     font-size: 40px;
   }
 
-  .lg\:leading-4 {
-    line-height: 1rem;
-  }
-
-  .lg\:leading-normal {
-    line-height: 1.5;
-  }
-
-  .lg\:leading-5 {
-    line-height: 1.25rem;
-  }
-
   .lg\:leading-10 {
     line-height: 2.5rem;
   }
@@ -2961,10 +2916,6 @@ header {
 
   .xl\:h-\[850px\] {
     height: 850px;
-  }
-
-  .xl\:w-6\/12 {
-    width: 50%;
   }
 
   .xl\:w-80 {
