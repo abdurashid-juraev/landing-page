@@ -8,14 +8,11 @@ module.exports = {
     screens: {
       xl: "1300px",
       lg: "1024px",
-      md: "800px",
+      md: "768px",
       sm: "320px",
     },
 
     extend: {
-      boxShadow: {
-        card: "0 0 10px #ffa800",
-      },
       width: {
         50: "198px",
         68: "68px",

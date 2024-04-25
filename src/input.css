@@ -140,24 +140,23 @@ header {
   transform: rotate(120deg);
   background: rgb(139, 123, 207);
 }
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
   .shadow-el,
   .shadow-el2,
   .shadow-el3,
   .shadow-el4 {
     display: none;
   }
-  .open {
-    right: 0 !important;
-  }
+}
+.open {
+  right: 0 !important;
 }
 .blur {
   backdrop-filter: blur(18px);
   background-color: rgba(15, 15, 15, 0.4);
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .nav {
-    background-color: rgba(15, 15, 15, 0.4);
     background-color: rgba(15, 15, 15, 0.9);
     height: 100vh;
   }
