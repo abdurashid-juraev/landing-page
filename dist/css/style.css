@@ -1928,8 +1928,16 @@ video {
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .grid {
@@ -1974,6 +1982,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[38px\] {
+  height: 38px;
 }
 
 .w-10\/12 {
@@ -2184,6 +2196,21 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-\[12px\] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.py-\[13px\] {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -2210,6 +2237,14 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.align-sub {
+  vertical-align: sub;
 }
 
 .font-abel {
@@ -2260,6 +2295,50 @@ video {
 
 .not-italic {
   font-style: normal;
+}
+
+.leading-\[1\] {
+  line-height: 1;
+}
+
+.leading-\[38px\] {
+  line-height: 38px;
+}
+
+.leading-\[14px\] {
+  line-height: 14px;
+}
+
+.leading-\[11px\] {
+  line-height: 11px;
+}
+
+.leading-\[1px\] {
+  line-height: 1px;
+}
+
+.leading-\[0px\] {
+  line-height: 0px;
+}
+
+.leading-none {
+  line-height: 1;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
 }
 
 .tracking-tight {
@@ -2744,6 +2823,11 @@ header {
     padding-bottom: 1.5rem;
   }
 
+  .sm\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .sm\:pb-20 {
     padding-bottom: 5rem;
   }
@@ -2897,6 +2981,14 @@ header {
     margin-right: 1.5rem;
   }
 
+  .lg\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:h-7 {
     height: 1.75rem;
   }
@@ -2905,12 +2997,34 @@ header {
     width: 8rem;
   }
 
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
   .lg\:items-center {
     align-items: center;
   }
 
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .lg\:pt-32 {
     padding-top: 8rem;
+  }
+
+  .lg\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .lg\:pt-20 {
+    padding-top: 5rem;
   }
 }
 
