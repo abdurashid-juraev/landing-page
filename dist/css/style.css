@@ -1973,6 +1973,10 @@ video {
   height: 3.5rem;
 }
 
+.h-36 {
+  height: 9rem;
+}
+
 .min-h-52 {
   min-height: 13rem;
 }
@@ -2023,6 +2027,10 @@ video {
 
 .w-14 {
   width: 3.5rem;
+}
+
+.w-36 {
+  width: 9rem;
 }
 
 .translate-x-0 {
