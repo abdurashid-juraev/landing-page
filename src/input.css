@@ -28,6 +28,33 @@ body {
   font-style: normal;
   font-display: swap;
 }
+* {
+  scroll-behavior: smooth;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    transition: 0.4s ease-in-out;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #000;
+    transition: 0.4s ease-in-out;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #ffa800;
+    border-radius: 20px;
+    transition: 0.4s ease-in-out;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #ffa800;
+    transition: 0.4s ease-in-out;
+  }
+}
 .swiper-button-prev::after,
 .swiper-button-next::after {
   content: none;

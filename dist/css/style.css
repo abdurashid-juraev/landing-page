@@ -1857,14 +1857,6 @@ video {
   margin-top: auto;
 }
 
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-.mb-auto {
-  margin-bottom: auto;
-}
-
 .line-clamp-1 {
   overflow: hidden;
   display: -webkit-box;
@@ -1943,14 +1935,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
-.h-24 {
-  height: 6rem;
 }
 
 .min-h-52 {
@@ -2319,6 +2303,34 @@ body {
   font-style: normal;
 
   font-display: swap;
+}
+
+* {
+  scroll-behavior: smooth;
+  &::-webkit-scrollbar {
+    width: 10px;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #000;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #ffa800;
+    border-radius: 20px;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #ffa800;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
 }
 
 .swiper-button-prev::after,
