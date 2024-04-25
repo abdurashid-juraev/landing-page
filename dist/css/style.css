@@ -1933,10 +1933,6 @@ video {
   height: 100%;
 }
 
-.h-52 {
-  height: 13rem;
-}
-
 .min-h-52 {
   min-height: 13rem;
 }
@@ -2003,10 +1999,6 @@ video {
 
 .overflow-x-clip {
   overflow-x: clip;
-}
-
-.overflow-y-clip {
-  overflow-y: clip;
 }
 
 .break-words {

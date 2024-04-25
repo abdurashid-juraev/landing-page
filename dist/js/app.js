@@ -43,4 +43,4 @@ tham.addEventListener("click", () => {
   body.classList.toggle("fixed-body");
 });
 
-AOS.init();
+AOS.init({ disable: "mobile" });
