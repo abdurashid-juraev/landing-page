@@ -31,6 +31,7 @@ module.exports = {
         main: "#110f0f",
         orange: "#ffa800",
         brzinc: "#a1aebf",
+        mentorbg: "#1b1919",
       },
       backgroundImage: {
         quadro: "url('../images/svg/Vector.svg')",
