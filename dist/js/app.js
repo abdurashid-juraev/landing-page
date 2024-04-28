@@ -6,6 +6,11 @@ function normal(a) {
   a.classList.remove("text-gradient");
 }
 
+$(window).on("load", function () {
+  AOS.init({ disable: "mobile" });
+  // AOS.refresh();
+});
+
 const swiper = new Swiper(".swiper", {
   // Optional parameters
   loop: true,
@@ -43,4 +48,20 @@ tham.addEventListener("click", () => {
   body.classList.toggle("fixed-body");
 });
 
-AOS.init({ disable: "mobile" });
+$(document).ready(function () {
+  $("#pagepiling").pagepiling({
+    menu: null,
+    anchors: ["p1", "p2", "p3", "p4", "p5"],
+    direction: "vertical",
+    verticalCentered: true,
+    css3: true,
+    keyboardScrolling: true,
+    easing: "swing",
+    navigation: {
+      textColor: "#000",
+      bulletsColor: "#000",
+      position: "center",
+      sectionSelector: ".section",
+    },
+  });
+});
