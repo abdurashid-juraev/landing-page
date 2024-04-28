@@ -2062,14 +2062,6 @@ video {
   overflow: clip;
 }
 
-.overflow-y-hidden {
-  overflow-y: hidden;
-}
-
-.overflow-x-clip {
-  overflow-x: clip;
-}
-
 .overflow-y-clip {
   overflow-y: clip;
 }
@@ -2262,10 +2254,6 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .text-center {
@@ -2912,10 +2900,6 @@ header {
     margin-right: 1rem;
   }
 
-  .md\:mb-20 {
-    margin-bottom: 5rem;
-  }
-
   .md\:flex {
     display: flex;
   }
@@ -2992,10 +2976,6 @@ header {
 
   .md\:pl-8 {
     padding-left: 2rem;
-  }
-
-  .md\:pt-20 {
-    padding-top: 5rem;
   }
 
   .md\:pt-24 {
