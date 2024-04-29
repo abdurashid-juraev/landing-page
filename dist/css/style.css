@@ -2593,6 +2593,10 @@ header {
   overflow: hidden;
 }
 
+.pp-section {
+  position: relative;
+}
+
 @media (min-width: 1300px) {
   .xl\:container {
     width: 100%;
