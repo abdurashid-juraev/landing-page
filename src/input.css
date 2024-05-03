@@ -184,7 +184,7 @@ header {
 }
 @media (max-width: 768px) {
   .nav {
-    background-color: rgba(15, 15, 15, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
     height: 100vh;
   }
 }
