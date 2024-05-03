@@ -1780,6 +1780,10 @@ video {
   position: relative;
 }
 
+.left-0 {
+  left: 0px;
+}
+
 .right-0 {
   right: 0px;
 }
@@ -2290,10 +2294,6 @@ video {
   font-size: 28px;
 }
 
-.text-h2 {
-  font-size: 40px;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -2523,7 +2523,7 @@ header {
   height: 455px;
   left: -100px;
   right: auto;
-  top: 544px;
+  top: 615px;
   filter: blur(110px);
   transform: rotate(23deg);
   background: rgb(255, 155, 98);
@@ -2595,6 +2595,31 @@ header {
 
 .pp-section {
   position: relative;
+}
+
+@media (min-width: 1024px) {
+  #p1,
+  #p2 {
+    height: 100vh;
+  }
+}
+
+#p1,
+#p2,
+#p3,
+#p4 {
+  transform: translate3d(0px, 0%, 0px) !important ;
+  /* touch-action: none; */
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 100vw;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
 }
 
 @media (min-width: 1300px) {
@@ -3000,6 +3025,10 @@ header {
     position: static;
   }
 
+  .lg\:relative {
+    position: relative;
+  }
+
   .lg\:order-1 {
     order: 1;
   }
@@ -3034,6 +3063,10 @@ header {
 
   .lg\:w-auto {
     width: auto;
+  }
+
+  .lg\:w-full {
+    width: 100%;
   }
 
   .lg\:grid-cols-2 {

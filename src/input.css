@@ -131,7 +131,7 @@ header {
   height: 455px;
   left: -100px;
   right: auto;
-  top: 544px;
+  top: 615px;
   filter: blur(110px);
   transform: rotate(23deg);
   background: rgb(255, 155, 98);
@@ -193,4 +193,26 @@ header {
 }
 .pp-section {
   position: relative;
+}
+
+@media (min-width: 1024px) {
+  #p1,
+  #p2 {
+    height: 100vh;
+  }
+}
+#p1,
+#p2,
+#p3,
+#p4 {
+  transform: translate3d(0px, 0%, 0px) !important ;
+  /* touch-action: none; */
+}
+@media (max-width: 768px) {
+  header {
+    width: 100vw;
+  }
+  html {
+    overflow-x: hidden;
+  }
 }

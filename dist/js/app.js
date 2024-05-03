@@ -46,16 +46,22 @@ tham.addEventListener("click", () => {
 window.addEventListener("load", myAos);
 
 function myAos() {
-  AOS.init({ disable: "mobile" });
+  AOS.init();
   AOS.refresh();
 }
 
-$(document).ready(function () {
-  $("#pagepiling").pagepiling({
-    menu: null,
-    anchors: ["p1", "p2", "p3", "p4", "p5"],
-    direction: "vertical",
-    keyboardScrolling: true,
-    scrollingSpeed: 900,
+function isMobile() {
+  return window.innerWidth <= 768;
+}
+
+if (!isMobile()) {
+  $(document).ready(function () {
+    $("#pagepiling").pagepiling({
+      menu: null,
+      anchors: ["p1", "p2", "p3", "p4", "p5"],
+      direction: "vertical",
+      keyboardScrolling: true,
+      scrollingSpeed: 900,
+    });
   });
-});
+}
