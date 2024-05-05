@@ -582,6 +582,12 @@ video {
   }
 }
 
+@media (min-width: 3000px) {
+  .container {
+    max-width: 3000px;
+  }
+}
+
 .tham {
   display: flex;
   align-items: center;
@@ -1800,6 +1806,10 @@ video {
   z-index: 20;
 }
 
+.z-30 {
+  z-index: 30;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1963,6 +1973,10 @@ video {
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.min-h-72 {
+  min-height: 18rem;
 }
 
 .w-10\/12 {
@@ -2359,14 +2373,6 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-200 {
-  transition-duration: 200ms;
-}
-
-.duration-500 {
-  transition-duration: 500ms;
-}
-
 .duration-300 {
   transition-duration: 300ms;
 }
@@ -2531,7 +2537,7 @@ header {
   height: 455px;
   left: -100px;
   right: auto;
-  top: 615px;
+  top: 555px;
   filter: blur(110px);
   transform: rotate(23deg);
   background: rgb(255, 155, 98);
@@ -2601,25 +2607,6 @@ header {
   overflow: hidden;
 }
 
-.pp-section {
-  position: relative;
-}
-
-@media (min-width: 1024px) {
-  #p1,
-  #p2 {
-    height: 100vh;
-  }
-}
-
-#p1,
-#p2,
-#p3,
-#p4 {
-  transform: translate3d(0px, 0%, 0px) !important ;
-  /* touch-action: none; */
-}
-
 @media (max-width: 768px) {
   header {
     width: 100vw;
@@ -2656,6 +2643,48 @@ header {
   @media (min-width: 1300px) {
     .xl\:container {
       max-width: 1300px;
+    }
+  }
+
+  @media (min-width: 3000px) {
+    .xl\:container {
+      max-width: 3000px;
+    }
+  }
+}
+
+@media (min-width: 3000px) {
+  .mega\:container {
+    width: 100%;
+  }
+
+  @media (min-width: 320px) {
+    .mega\:container {
+      max-width: 320px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .mega\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .mega\:container {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1300px) {
+    .mega\:container {
+      max-width: 1300px;
+    }
+  }
+
+  @media (min-width: 3000px) {
+    .mega\:container {
+      max-width: 3000px;
     }
   }
 }
@@ -3172,5 +3201,15 @@ header {
   .xl\:text-8xl {
     font-size: 6rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 3000px) {
+  .mega\:w-10\/12 {
+    width: 83.333333%;
+  }
+
+  .mega\:w-auto {
+    width: auto;
   }
 }

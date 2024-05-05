@@ -6,6 +6,7 @@ function normal(a) {
   a.classList.remove("text-gradient");
 }
 
+//====================================================
 const swiper = new Swiper(".swiper", {
   // Optional parameters
   loop: true,
@@ -33,6 +34,8 @@ const swiper = new Swiper(".swiper", {
   },
 });
 
+//====================================================
+
 const tham = document.querySelector(".tham");
 const nav = document.querySelector(".nav");
 const body = document.querySelector("body");
@@ -43,6 +46,8 @@ tham.addEventListener("click", () => {
   body.classList.toggle("fixed-body");
 });
 
+//====================================================
+
 window.addEventListener("load", myAos);
 
 function myAos() {
@@ -50,18 +55,21 @@ function myAos() {
   AOS.refresh();
 }
 
-function isMobile() {
-  return window.innerWidth <= 768;
-}
+//====================================================
 
-if (!isMobile()) {
-  $(document).ready(function () {
-    $("#pagepiling").pagepiling({
-      menu: null,
-      anchors: ["p1", "p2", "p3", "p4", "p5"],
-      direction: "vertical",
-      keyboardScrolling: true,
-      scrollingSpeed: 900,
-    });
-  });
+const h1 = document.querySelector("h1");
+const text = "Tajribani tajribalilardan oling!";
+
+function textEffect(el, text, i = 0) {
+  el.textContent += text[i];
+
+  if (i === text.length - 1) {
+    setTimeout(() => {
+      el.textContent = "";
+      textEffect(el, text);
+    }, 2000);
+    return;
+  }
+  setTimeout(() => textEffect(el, text, i + 1), 200);
 }
+textEffect(h1, text);
