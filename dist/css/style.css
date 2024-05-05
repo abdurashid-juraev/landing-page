@@ -1971,12 +1971,12 @@ video {
   min-height: 13rem;
 }
 
-.min-h-screen {
-  min-height: 100vh;
-}
-
 .min-h-72 {
   min-height: 18rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-10\/12 {
@@ -2615,6 +2615,23 @@ header {
   html {
     overflow-x: hidden;
   }
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+    transition: opacity 400ms;
+  }
+
+  to {
+    opacity: 1;
+    transition: opacity 400ms;
+  }
+}
+
+h1::after {
+  content: " |";
+  animation: blink 800ms infinite;
 }
 
 @media (min-width: 1300px) {
