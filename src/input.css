@@ -200,6 +200,16 @@ header {
     overflow-x: hidden;
   }
 }
+@media (min-width: 320px) {
+  .text {
+    min-height: 120px;
+  }
+}
+@media (min-width: 410px) {
+  .text {
+    min-height: 80px;
+  }
+}
 @keyframes blink {
   from {
     opacity: 0;

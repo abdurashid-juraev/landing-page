@@ -1971,10 +1971,6 @@ video {
   min-height: 13rem;
 }
 
-.min-h-72 {
-  min-height: 18rem;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -2617,6 +2613,18 @@ header {
   }
 }
 
+@media (min-width: 320px) {
+  .text {
+    min-height: 120px;
+  }
+}
+
+@media (min-width: 410px) {
+  .text {
+    min-height: 80px;
+  }
+}
+
 @keyframes blink {
   from {
     opacity: 0;
@@ -3109,6 +3117,10 @@ h1::after {
 
   .lg\:h-7 {
     height: 1.75rem;
+  }
+
+  .lg\:min-h-72 {
+    min-height: 18rem;
   }
 
   .lg\:w-32 {
