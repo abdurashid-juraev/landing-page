@@ -2619,7 +2619,7 @@ header {
   }
 }
 
-@media (min-width: 410px) {
+@media (min-width: 400px) {
   .text {
     min-height: 80px;
   }
