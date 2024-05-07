@@ -2945,6 +2945,10 @@ h1::after {
     padding-top: 1.5rem;
   }
 
+  .sm\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
   .sm\:text-center {
     text-align: center;
   }
@@ -3195,6 +3199,10 @@ h1::after {
     padding-top: 8rem;
   }
 
+  .lg\:pb-0 {
+    padding-bottom: 0px;
+  }
+
   .lg\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
@@ -3225,6 +3233,10 @@ h1::after {
   .xl\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .xl\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .xl\:text-8xl {
