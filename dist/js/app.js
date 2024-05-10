@@ -55,7 +55,7 @@ tham.addEventListener("click", () => {
 window.addEventListener("load", myAos);
 
 function myAos() {
-  AOS.init({ disable: "mobile" });
+  AOS.init();
   AOS.refresh();
 }
 
