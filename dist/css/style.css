@@ -3262,33 +3262,11 @@ h1::after {
 }
 
 @media (min-width: 3000px) {
-  .mega\:w-10\/12 {
-    width: 83.333333%;
-  }
-
-  .mega\:w-auto {
-    width: auto;
-  }
-
-  .mega\:w-full {
-    width: 100%;
-  }
-
-  .mega\:w-max {
-    width: -moz-max-content;
-    width: max-content;
-  }
-
-  .mega\:w-min {
-    width: -moz-min-content;
-    width: min-content;
-  }
-
-  .mega\:w-2\/3 {
-    width: 66.666667%;
-  }
-
   .mega\:w-1\/2 {
     width: 50%;
+  }
+
+  .mega\:w-10\/12 {
+    width: 83.333333%;
   }
 }
