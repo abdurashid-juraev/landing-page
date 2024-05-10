@@ -57,19 +57,34 @@ function myAos() {
 
 //====================================================
 
-const h1 = document.querySelector("h1");
-const text = "Tajribani tajribalilardan oling!";
-
-function textEffect(el, text, i = 0) {
-  el.textContent += text[i];
-
-  if (i === text.length - 1) {
-    setTimeout(() => {
-      el.textContent = "";
-      textEffect(el, text);
-    }, 2000);
-    return;
-  }
-  setTimeout(() => textEffect(el, text, i + 1), 200);
+function autoType(element, text, speed) {
+  let i = 0;
+  const interval = setInterval(function () {
+    if (i <= text.length) {
+      element.textContent = text.substring(0, i++);
+    } else {
+      clearInterval(interval);
+      autoRemove(element, speed);
+    }
+  }, speed);
 }
-textEffect(h1, text);
+
+function autoRemove(element, speed) {
+  let text = element.textContent;
+  let i = text.length;
+  const interval = setInterval(function () {
+    if (i >= 0) {
+      element.textContent = text.substring(0, i--);
+    } else {
+      clearInterval(interval);
+
+      autoType(element, text, speed);
+    }
+  }, speed);
+}
+
+const targetElement = document.querySelector("h1");
+const textToType = "Tajribani tajribalilardan oling!";
+const typingSpeed = 100;
+
+autoType(targetElement, textToType, typingSpeed);

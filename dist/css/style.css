@@ -2592,7 +2592,7 @@ header {
   background-color: rgba(15, 15, 15, 0.4);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .nav {
     background-color: rgba(0, 0, 0, 0.9);
     height: 100vh;
@@ -2635,6 +2635,10 @@ header {
     opacity: 1;
     transition: opacity 400ms;
   }
+}
+
+h1 span {
+  color: red;
 }
 
 h1::after {
@@ -2929,6 +2933,10 @@ h1::after {
     padding-bottom: 5rem;
   }
 
+  .sm\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
   .sm\:pl-4 {
     padding-left: 1rem;
   }
@@ -2943,10 +2951,6 @@ h1::after {
 
   .sm\:pt-6 {
     padding-top: 1.5rem;
-  }
-
-  .sm\:pb-6 {
-    padding-bottom: 1.5rem;
   }
 
   .sm\:text-center {
@@ -3197,10 +3201,6 @@ h1::after {
 
   .lg\:pt-32 {
     padding-top: 8rem;
-  }
-
-  .lg\:pb-0 {
-    padding-bottom: 0px;
   }
 
   .lg\:text-7xl {
