@@ -2246,10 +2246,6 @@ video {
   padding-bottom: 4rem;
 }
 
-.pb-24 {
-  padding-bottom: 6rem;
-}
-
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -2603,7 +2599,7 @@ header {
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   header {
     width: 100vw;
   }
@@ -2873,6 +2869,10 @@ h1::after {
     width: 100%;
   }
 
+  .sm\:w-3\/4 {
+    width: 75%;
+  }
+
   .sm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -2929,6 +2929,10 @@ h1::after {
     padding-bottom: 2rem;
   }
 
+  .sm\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
   .sm\:pb-20 {
     padding-bottom: 5rem;
   }
@@ -2951,10 +2955,6 @@ h1::after {
 
   .sm\:pt-6 {
     padding-top: 1.5rem;
-  }
-
-  .sm\:pb-12 {
-    padding-bottom: 3rem;
   }
 
   .sm\:text-center {
@@ -3019,6 +3019,10 @@ h1::after {
     width: 83.333333%;
   }
 
+  .md\:w-3\/4 {
+    width: 75%;
+  }
+
   .md\:w-6\/12 {
     width: 50%;
   }
@@ -3035,10 +3039,6 @@ h1::after {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .md\:flex-row {
     flex-direction: row;
   }
@@ -3053,6 +3053,10 @@ h1::after {
 
   .md\:justify-center {
     justify-content: center;
+  }
+
+  .md\:gap-4 {
+    gap: 1rem;
   }
 
   .md\:gap-5 {
@@ -3131,10 +3135,6 @@ h1::after {
     height: 1.75rem;
   }
 
-  .lg\:min-h-72 {
-    min-height: 18rem;
-  }
-
   .lg\:w-32 {
     width: 8rem;
   }
@@ -3149,6 +3149,10 @@ h1::after {
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
@@ -3199,16 +3203,16 @@ h1::after {
     padding-bottom: 3rem;
   }
 
+  .lg\:pb-24 {
+    padding-bottom: 6rem;
+  }
+
   .lg\:pt-20 {
     padding-top: 5rem;
   }
 
   .lg\:pt-32 {
     padding-top: 8rem;
-  }
-
-  .lg\:pb-24 {
-    padding-bottom: 6rem;
   }
 
   .lg\:text-7xl {
@@ -3234,6 +3238,10 @@ h1::after {
     height: 850px;
   }
 
+  .xl\:min-h-72 {
+    min-height: 18rem;
+  }
+
   .xl\:w-80 {
     width: 20rem;
   }
@@ -3245,6 +3253,10 @@ h1::after {
 
   .xl\:pb-0 {
     padding-bottom: 0px;
+  }
+
+  .xl\:pt-32 {
+    padding-top: 8rem;
   }
 
   .xl\:text-8xl {
