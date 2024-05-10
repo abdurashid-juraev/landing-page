@@ -2609,6 +2609,10 @@ header {
   }
 }
 
+html {
+  overflow-x: hidden;
+}
+
 @media (min-width: 320px) {
   .text {
     min-height: 120px;
@@ -3264,5 +3268,27 @@ h1::after {
 
   .mega\:w-auto {
     width: auto;
+  }
+
+  .mega\:w-full {
+    width: 100%;
+  }
+
+  .mega\:w-max {
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  .mega\:w-min {
+    width: -moz-min-content;
+    width: min-content;
+  }
+
+  .mega\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .mega\:w-1\/2 {
+    width: 50%;
   }
 }

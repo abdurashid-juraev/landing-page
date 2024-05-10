@@ -200,6 +200,9 @@ header {
     overflow-x: hidden;
   }
 }
+html {
+  overflow-x: hidden;
+}
 @media (min-width: 320px) {
   .text {
     min-height: 120px;
