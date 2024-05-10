@@ -83,7 +83,7 @@ function autoRemove(element, speed) {
   }, speed);
 }
 
-const targetElement = document.querySelector("h1");
+const targetElement = document.querySelector(".h1");
 const textToType = "Tajribani tajribalilardan oling!";
 const typingSpeed = 100;
 
