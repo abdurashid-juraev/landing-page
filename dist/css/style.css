@@ -2588,7 +2588,7 @@ header {
   background-color: rgba(15, 15, 15, 0.4);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
   .nav {
     background-color: rgba(0, 0, 0, 0.9);
     height: 100vh;
@@ -2853,12 +2853,12 @@ h1::after {
     width: 5rem;
   }
 
-  .sm\:w-40 {
-    width: 10rem;
+  .sm\:w-3\/4 {
+    width: 75%;
   }
 
-  .sm\:w-64 {
-    width: 16rem;
+  .sm\:w-40 {
+    width: 10rem;
   }
 
   .sm\:w-auto {
@@ -2867,10 +2867,6 @@ h1::after {
 
   .sm\:w-full {
     width: 100%;
-  }
-
-  .sm\:w-3\/4 {
-    width: 75%;
   }
 
   .sm\:grid-cols-1 {
@@ -3017,10 +3013,6 @@ h1::after {
 
   .md\:w-10\/12 {
     width: 83.333333%;
-  }
-
-  .md\:w-3\/4 {
-    width: 75%;
   }
 
   .md\:w-6\/12 {
