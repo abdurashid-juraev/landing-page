@@ -2637,8 +2637,8 @@ html {
   }
 }
 
-h1 span {
-  color: red;
+h1.h1 span {
+  color: red !important;
 }
 
 h1::after {

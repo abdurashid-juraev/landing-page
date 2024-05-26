@@ -60,35 +60,38 @@ function myAos() {
 }
 
 //====================================================
-
-function autoType(element, text, speed) {
-  let i = 0;
-  const interval = setInterval(function () {
-    if (i <= text.length) {
-      element.textContent = text.substring(0, i++);
-    } else {
-      clearInterval(interval);
-      autoRemove(element, speed);
-    }
-  }, speed);
-}
-
-function autoRemove(element, speed) {
-  let text = element.textContent;
-  let i = text.length;
-  const interval = setInterval(function () {
-    if (i >= 0) {
-      element.textContent = text.substring(0, i--);
-    } else {
-      clearInterval(interval);
-
-      autoType(element, text, speed);
-    }
-  }, speed);
-}
-
 const targetElement = document.querySelector(".h1");
-const textToType = "Tajribani tajribalilardan oling!";
-const typingSpeed = 100;
+if (targetElement) {
+  function autoType(element, text, speed) {
+    let i = 0;
+    const interval = setInterval(function () {
+      if (i <= text.length) {
+        element.textContent = text.substring(0, i++);
+      } else {
+        clearInterval(interval);
+        autoRemove(element, speed);
+      }
+    }, speed);
+  }
 
-autoType(targetElement, textToType, typingSpeed);
+  function autoRemove(element, speed) {
+    let text = element.textContent;
+    let i = text.length;
+    const interval = setInterval(function () {
+      if (i >= 0) {
+        element.textContent = text.substring(0, i--);
+      } else {
+        clearInterval(interval);
+
+        autoType(element, text, speed);
+      }
+    }, speed);
+  }
+
+  let text = document.createTextNode("");
+
+  const textToType = "Tajribani Tajribalilardan  oling!";
+  const typingSpeed = 100;
+
+  autoType(targetElement, textToType, typingSpeed);
+}
