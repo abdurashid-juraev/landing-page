@@ -1,1218 +1,668 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vector IT Academy</title>
-    <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body class="bg-main">
-    <div class="flex min-h-screen flex-col">
-      <header
-        class="fixed left-0 right-0 top-0 z-30 lg:w-full"
-        data-aos="fade-down"
-        data-aos-duration="1000"
-      >
-        <div class="mx-auto xl:container lg:px-4 xl:px-0">
-          <div
-            class="sm:relative sm:flex sm:flex-col sm:justify-between sm:px-4 sm:py-6 lg:flex-row lg:items-center lg:px-0"
-          >
-            <div class="sm:flex sm:items-center sm:justify-between">
-              <a href="index.html" class="block sm:h-5 sm:w-20 lg:h-7 lg:w-32">
-                <img
-                  class="h-full w-full object-contain"
-                  src="./images/svg/logo.svg"
-                  alt="bu yerda Vektor IT Academy Logotipi bo'lishi mumkin edi!"
-                />
-              </a>
-              <button
-                type="button"
-                aria-expanded="false"
-                aria-controls="main-menu"
-                role="navigation"
-                class="tham tham-e-squeeze tham-w-6 lg:hidden"
-              >
-                <div class="tham-box">
-                  <div class="tham-inner bg-white"></div>
-                </div>
-              </button>
-            </div>
-            <nav
-              class="nav z-10 duration-300 sm:absolute sm:-right-full sm:top-16 sm:w-full sm:px-4 sm:py-6 lg:static lg:w-auto lg:px-0 lg:py-0"
-            >
-              <ul class="sm:flex sm:flex-col lg:flex-row lg:items-center">
-                <li class="sm:mb-6 lg:mb-0 lg:mr-6">
-                  <a
-                    id="a"
-                    onmouseover="hover(a)"
-                    onmouseout="normal(a)"
-                    class="a flex items-center font-main text-base font-bold capitalize not-italic tracking-wide text-white"
-                    href="#!"
-                    ><span>Company</span>
-                    <span
-                      ><img
-                        class="ml-1 h-5 w-5 object-contain"
-                        src="./images/svg/b-arrow.svg"
-                        alt=""
-                    /></span>
-                  </a>
-                </li>
-                <li class="sm:mb-6 lg:mb-0 lg:mr-6">
-                  <a
-                    id="a2"
-                    onmouseover="hover(a2)"
-                    onmouseout="normal(a2)"
-                    class="a font-main text-base font-bold capitalize not-italic tracking-wide text-white"
-                    href="about.html"
-                    >Services</a
-                  >
-                </li>
-                <li class="sm:mb-6 lg:mb-0 lg:mr-6">
-                  <a
-                    id="a3"
-                    onmouseover="hover(a3)"
-                    onmouseout="normal(a3)"
-                    class="a font-main text-base font-bold capitalize not-italic tracking-wide text-white"
-                    href="singel.html"
-                    >resources</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="inline-block rounded-3xl border-2 border-solid border-orange px-6 py-2 font-main text-sm font-bold uppercase not-italic tracking-wide text-orange duration-150 hover:bg-orange hover:text-black"
-                    href="#!"
-                    ><span class="align-sub">Sign in</span></a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </header>
-      <main class="pt-24">
-        <section
-          class="overflow-clip bg-quadro bg-cover bg-center bg-no-repeat sm:mb-8 sm:pb-6 md:relative md:mb-0 xl:h-[850px] xl:pb-0"
-        >
-          <div class="mx-auto xl:container sm:px-4 sm:pt-10 md:px-0 xl:pt-32">
-            <div class="md:flex md:justify-center">
-              <div
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                class="sm:w-auto md:w-[523px] mega:w-1/2"
-              >
-                <h1
-                  class="h1 text mb-3 break-words font-main font-bold text-white sm:text-4xl xl:min-h-72 xl:text-8xl"
-                >
-                  <!-- Tajribani <span class="text-gradient">tajribalilar</span>dan
-                  oling! -->
-                </h1>
-                <p
-                  class="mb-8 font-abel text-base font-normal tracking-wide text-white opacity-60"
-                >
-                  Risus commodo id odio turpis pharetra elementum. Pulvinar
-                  porta porta feugiat scelerisque in elit. Morbi rhoncus,
-                  tellus, eros
-                </p>
-                <form
-                  action=""
-                  class="flex items-center sm:justify-between md:justify-normal"
-                >
-                  <input
-                    required
-                    type="text"
-                    placeholder="Email"
-                    class="rounded-3xl border-2 border-solid border-brzinc bg-transparent px-3 py-3 font-abel text-base font-normal text-white focus:border-none focus:outline-none focus:outline-orange sm:w-3/4 xl:w-80 mega:w-10/12"
-                  />
-                  <button
-                    type="submit"
-                    class="ml-4 rounded-3xl bg-orange px-5 py-[14.6px] text-center font-main text-sm font-bold uppercase text-black duration-150 hover:opacity-80"
-                  >
-                    <span class="align-sub">Attract</span>
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-          <div class="shadow-el"></div>
-          <div class="shadow-el2"></div>
-        </section>
-        <section class="bg-main sm:pb-12 sm:pt-6 md:pt-24 lg:pb-24">
-          <div class="mx-auto xl:container sm:px-4 md:px-0">
-            <h2
-              class="mb-6 text-center font-main font-bold text-white sm:text-2xl lg:text-h2"
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-            >
-              Bizning kurslar
-            </h2>
-            <p
-              class="mx-auto mb-10 text-center font-abel font-normal tracking-wide text-white opacity-60 md:w-6/12"
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-            >
-              Biz “Axborot texnologiyalari” sohasida o’z kasbini yanada chuqur
-              ustasi bo’lishni xohlaganlarga bilim va tajriba ulashamiz.
-            </p>
-            <div
-              class="mx-auto grid gap-8 sm:w-auto md:w-10/12 md:grid-cols-2 lg:grid-cols-3"
-            >
-              <article
-                class="min-h-52 rounded border border-solid border-brzinc p-5 duration-150 hover:border-orange"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-              >
-                <div class="inner mb-5">
-                  <img
-                    class="h-12 w-12 object-contain"
-                    src="./images/svg/react.svg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <h3
-                    class="mb-5 line-clamp-1 font-main text-cardT font-bold text-white"
-                  >
-                    React.js testing
-                  </h3>
-                  <p
-                    class="line-clamp-3 font-abel text-sm font-normal text-white opacity-60"
-                  >
-                    Egestas tellus nunc proin amet tellus tincidunt lacus
-                    consequat. Ultrices Egestas tellus nunc proin amet tellus
-                    tincidunt lacus consequat. UltricesEgestas tellus nunc proin
-                    amet tellus tincidunt lacus consequat. Ultrices
-                  </p>
-                </div>
-              </article>
-              <article
-                class="min-h-52 rounded border border-solid border-brzinc p-5 duration-150 hover:border-orange"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-              >
-                <div class="mb-5">
-                  <img
-                    class="h-12 w-12 object-contain"
-                    src="./images/svg/verstka.svg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <h3
-                    class="mb-5 line-clamp-1 font-main text-[27px] font-bold text-white"
-                  >
-                    “Verstka” master class
-                  </h3>
-                  <p
-                    class="line-clamp-3 font-abel text-sm font-normal text-white opacity-60"
-                  >
-                    Egestas tellus nunc proin amet tellus tincidunt lacus
-                    consequat. Ultrices
-                  </p>
-                </div>
-              </article>
-              <article
-                class="min-h-52 rounded border border-solid border-brzinc p-5 duration-150 hover:border-orange"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-              >
-                <div class="mb-5">
-                  <img
-                    class="h-12 w-12 object-contain"
-                    src="./images/svg/angular.svg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <h3
-                    class="mb-5 line-clamp-1 font-main text-cardT font-bold text-white"
-                  >
-                    JS, TS va Angular
-                  </h3>
-                  <p
-                    class="line-clamp-3 font-abel text-sm font-normal text-white opacity-60"
-                  >
-                    Egestas tellus nunc proin amet tellus tincidunt lacus
-                    consequat. Ultrices
-                  </p>
-                </div>
-              </article>
-              <article
-                class="min-h-52 rounded border border-solid border-brzinc p-5 duration-150 hover:border-orange"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-              >
-                <div class="mb-5">
-                  <img
-                    class="h-12 w-12 object-contain"
-                    src="./images/svg/nodejs.svg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <h3
-                    class="mb-5 line-clamp-1 font-main text-cardT font-bold text-white"
-                  >
-                    Node.js Advanced
-                  </h3>
-                  <p
-                    class="line-clamp-3 font-abel text-sm font-normal text-white opacity-60"
-                  >
-                    Egestas tellus nunc proin amet tellus tincidunt lacus
-                    consequat. Ultrices
-                  </p>
-                </div>
-              </article>
-              <article
-                class="min-h-52 rounded border border-solid border-brzinc p-5 duration-150 hover:border-orange"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-              >
-                <div class="mb-5">
-                  <img
-                    class="h-12 w-12 object-contain"
-                    src="./images/svg/english.svg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <h3
-                    class="mb-5 line-clamp-1 font-main text-cardT font-bold text-white"
-                  >
-                    Business English
-                  </h3>
-                  <p
-                    class="line-clamp-3 font-abel text-sm font-normal text-white opacity-60"
-                  >
-                    Egestas tellus nunc proin amet tellus tincidunt lacus
-                    consequat. Ultrices
-                  </p>
-                </div>
-              </article>
-              <article
-                class="min-h-52 rounded border border-solid border-brzinc p-5 duration-150 hover:border-orange"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-              >
-                <div class="mb-5">
-                  <img
-                    class="h-12 w-12 object-contain"
-                    src="./images/svg/devops.svg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <h3
-                    class="mb-5 line-clamp-1 font-main text-cardT font-bold text-white"
-                  >
-                    DevOps
-                  </h3>
-                  <p
-                    class="line-clamp-3 font-abel text-sm font-normal text-white opacity-60"
-                  >
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Alias deserunt fugit odio qui fugiat sit voluptatibus
-                    perspiciatis, rem odit. Ducimus aperiam nihil sunt iste
-                    sapiente distinctio pariatur facilis possimus sit.
-                  </p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
-        <section class="bg-black lg:py-20">
-          <div class="mx-auto xl:container sm:px-4 md:px-0">
-            <div
-              class="sm:grid sm:grid-cols-1 sm:gap-0 md:grid-cols-2 md:gap-5"
-            >
-              <div
-                class="sm:h-52 md:h-96"
-                data-aos="fade-right"
-                data-aos-duration="1000"
-              >
-                <img
-                  class="h-full w-full object-contain object-center"
-                  src="./images/svg/user.svg"
-                  alt=""
-                />
-              </div>
-              <div
-                class="flex items-center"
-                data-aos="fade-left"
-                data-aos-duration="1000"
-              >
-                <div class="md:pl-8">
-                  <h2
-                    class="mb-4 line-clamp-1 font-main font-bold text-white sm:text-2xl lg:text-h2 lg:leading-10"
-                  >
-                    Why choose us
-                  </h2>
-                  <p
-                    class="mb-8 line-clamp-4 w-10/12 font-abel text-base font-normal tracking-tight text-white opacity-60"
-                  >
-                    Commodo diam vulputate dui proin quis enim nibh. Non integer
-                    ac libero facilisis hendrerit a at. Nisi sem ut sed sed
-                    faucibus at eu elit. Morbi aliquam porttitor mattis
-                    consequat neque, tellus blandit.
-                  </p>
-                  <a
-                    href="#!"
-                    class="block rounded-3xl bg-orange px-5 py-4 font-main text-sm font-bold uppercase text-black duration-150 hover:opacity-80 sm:mx-auto sm:w-40 sm:text-center md:mx-0 md:ml-4"
-                  >
-                    <span class="align-sub">Let’s connect</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="bg-black pb-16 sm:pt-12 lg:pt-20">
-          <div class="mx-auto xl:container sm:px-4">
-            <div class="sm:grid sm:grid-cols-1 md:grid-cols-2 md:gap-4">
-              <h2
-                class="line-clamp-3 font-main font-bold text-white sm:mb-5 sm:text-2xl md:mb-0 lg:text-h2 lg:leading-10"
-                data-aos="fade-right"
-                data-aos-duration="1100"
-              >
-                Trusted by 200+ companies around the world
-              </h2>
-              <p
-                class="line-clamp-4 font-abel text-base font-normal tracking-tight text-white opacity-60 sm:w-auto md:w-10/12"
-                data-aos="fade-left"
-                data-aos-duration="1100"
-              >
-                Vulputate molestie molestie amet leo blandit accumsan. Sapien
-                sed amet tellus purus sit odio eget. Diam morbi faucibus vitae
-                neque id in. Nullam sed et dapibus nunc, porta enim orci urna,
-                sit. Lectus ac.
-              </p>
-            </div>
-          </div>
-        </section>
-        <section class="overflow-auto bg-black sm:pb-20 md:pb-32">
-          <div class="mx-auto mega:container">
-            <div class="enable-animation">
-              <div class="marquee marquee--hover-pause">
-                <ul class="marquee__content flex items-center">
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/offmax.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon2.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/logoipsum.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/logoipsum2.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/offmax.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon2.svg"
-                      alt=""
-                    />
-                  </li>
-                </ul>
-                <ul
-                  aria-hidden="true"
-                  class="marquee__content flex items-center"
-                >
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/offmax.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon2.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/logoipsum.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/logoipsum2.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/offmax.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon2.svg"
-                      alt=""
-                    />
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="enable-animation-l">
-              <div class="marquee marquee--hover-pause">
-                <ul class="marquee__content flex items-center">
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/offmax.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon2.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/logoipsum.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/logoipsum2.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/offmax.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon2.svg"
-                      alt=""
-                    />
-                  </li>
-                </ul>
-                <ul
-                  aria-hidden="true"
-                  class="marquee__content flex items-center"
-                >
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/offmax.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon2.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/logoipsum.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/logoipsum2.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="mr-5 flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/offmax.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon.svg"
-                      alt=""
-                    />
-                  </li>
-                  <li
-                    class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange"
-                  >
-                    <img
-                      class="h-10 w-40 object-contain object-center"
-                      src="./images/svg/icon2.svg"
-                      alt=""
-                    />
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section
-          class="relative overflow-y-clip bg-quadro bg-cover bg-top bg-no-repeat pb-9 pt-10"
-        >
-          <div class="mx-auto xl:container">
-            <h2
-              class="text-center font-main font-bold text-white sm:mb-10 sm:text-2xl md:mb-5 md:text-h2"
-              data-aos="fade-down"
-              data-aos-duration="1000"
-            >
-              Let’s discuss the idea
-            </h2>
-            <ul class="flex items-center justify-center">
-              <li class="mr-8 duration-150 hover:scale-x-110 hover:scale-y-110">
-                <a
-                  class="block sm:h-12 sm:w-12 md:h-68 md:w-68"
-                  href="#!"
-                  data-aos="fade-right"
-                  data-aos-duration="1600"
-                  ><img
-                    class="h-full w-full object-contain"
-                    src="./images/svg/facebook.svg"
-                    alt=""
-                /></a>
-              </li>
-              <li class="mr-8 duration-150 hover:scale-x-110 hover:scale-y-110">
-                <a
-                  class="block sm:h-12 sm:w-12 md:h-68 md:w-68"
-                  href="#!"
-                  data-aos="fade-right"
-                  data-aos-duration="1300"
-                  ><img
-                    class="h-full w-full object-contain"
-                    src="./images/svg/telegram.svg"
-                    alt=""
-                /></a>
-              </li>
-              <li class="mr-8 duration-150 hover:scale-x-110 hover:scale-y-110">
-                <a
-                  class="block sm:h-12 sm:w-12 md:h-68 md:w-68"
-                  href="#!"
-                  data-aos="fade-right"
-                  data-aos-duration="1000"
-                  ><img
-                    class="h-full w-full object-contain"
-                    src="./images/svg/instagram.svg"
-                    alt=""
-                /></a>
-              </li>
-              <li class="duration-150 hover:scale-x-110 hover:scale-y-110">
-                <a
-                  class="block sm:h-12 sm:w-12 md:h-68 md:w-68"
-                  href="#!"
-                  data-aos="fade-right"
-                  data-aos-duration="700"
-                  ><img
-                    class="h-full w-full object-contain"
-                    src="./images/svg/youtube.svg"
-                    alt=""
-                /></a>
-              </li>
-            </ul>
-          </div>
-          <div class="shadow-el3"></div>
-          <div class="shadow-el4"></div>
-        </section>
-        <section class="bg-main sm:py-8 lg:pb-12 lg:pt-20">
-          <div class="mx-auto xl:container md:px-5 xl:px-0">
-            <!-- Slider main container -->
-            <div>
-              <div class="flex items-center justify-between sm:mb-8 lg:mb-14">
-                <h3
-                  class="font-main text-base font-bold text-white sm:px-4"
-                  data-aos="fade-right"
-                  data-aos-duration="1000"
-                >
-                  Hear what our customers say (Sharh)
-                </h3>
-                <!-- If we need navigation buttons -->
-                <div
-                  class="justify-center sm:hidden md:flex"
-                  data-aos="fade-left"
-                  data-aos-duration="1000"
-                >
-                  <div
-                    class="swiper-button-prev group static mr-6 mt-0 h-15 w-15 rounded border border-orange hover:bg-stone-900"
-                  >
-                    <img
-                      class="h-6 w-6 object-contain duration-150 group-hover:scale-x-150 group-hover:scale-y-150"
-                      src="./images/svg/left-arrow.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div
-                    class="swiper-button-next group static mt-0 h-15 w-15 rounded border border-orange hover:bg-stone-900"
-                  >
-                    <img
-                      class="h-5 w-5 object-contain duration-150 group-hover:scale-x-150 group-hover:scale-y-150"
-                      src="./images/svg/right-arrow.svg"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="swiper sm:pl-4 md:pl-0">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="swiper-slide">
-                    <article
-                      class="rounded border border-brzinc p-6"
-                      data-aos="zoom-in"
-                      data-aos-duration="1000"
-                    >
-                      <div
-                        class="mb-4 flex sm:flex-col sm:items-center md:flex-row"
-                      >
-                        <div
-                          class="h-12 w-12 overflow-hidden rounded-full sm:mb-4 md:mb-0 md:mr-4"
-                        >
-                          <img
-                            class="h-full w-full object-contain object-top"
-                            src="./images/png/user1.png"
-                            alt=""
-                          />
-                        </div>
-                        <div>
-                          <div
-                            class="mb-1 font-main text-base font-bold text-white sm:text-center md:text-left"
-                          >
-                            Brooklyn Simmons
-                          </div>
-                          <div
-                            class="font-main text-base font-bold text-white opacity-60 sm:text-center md:text-left"
-                          >
-                            Logoipsum
-                          </div>
-                        </div>
-                      </div>
-                      <p
-                        class="line-clamp-6 font-main text-base font-bold text-white"
-                      >
-                        Sit ut diam bibendum dolor. Ullamcorper pharetra nibh
-                        eget vitae pulvinar. Placerat sapien, dolor, aenean
-                        vivamus in tincidunt et. Mauris dolor vestibulum et
-                        lacus a ante orci.
-                      </p>
-                    </article>
-                  </div>
-                  <div class="swiper-slide">
-                    <article
-                      class="rounded border border-brzinc p-6"
-                      data-aos="zoom-in"
-                      data-aos-duration="1000"
-                    >
-                      <div
-                        class="mb-4 flex sm:flex-col sm:items-center md:flex-row"
-                      >
-                        <div
-                          class="h-12 w-12 overflow-hidden rounded-full sm:mb-4 md:mb-0 md:mr-4"
-                        >
-                          <img
-                            class="h-full w-full object-contain object-top"
-                            src="./images/png/user1.png"
-                            alt=""
-                          />
-                        </div>
-                        <div>
-                          <div
-                            class="mb-1 font-main text-base font-bold text-white"
-                          >
-                            Brooklyn Simmons
-                          </div>
-                          <div
-                            class="font-main text-base font-bold text-white opacity-60"
-                          >
-                            Logoipsum
-                          </div>
-                        </div>
-                      </div>
-                      <p
-                        class="line-clamp-6 font-main text-base font-bold text-white"
-                      >
-                        Sit ut diam bibendum dolor. Ullamcorper pharetra nibh
-                        eget vitae pulvinar. Placerat sapien, dolor, aenean
-                        vivamus in tincidunt et.
-                      </p>
-                    </article>
-                  </div>
-                  <div class="swiper-slide">
-                    <article
-                      class="rounded border border-brzinc p-6"
-                      data-aos="zoom-in"
-                      data-aos-duration="1000"
-                    >
-                      <div
-                        class="mb-4 flex sm:flex-col sm:items-center md:flex-row"
-                      >
-                        <div
-                          class="h-12 w-12 overflow-hidden rounded-full sm:mb-4 md:mb-0 md:mr-4"
-                        >
-                          <img
-                            class="h-full w-full object-contain object-top"
-                            src="./images/png/user1.png"
-                            alt=""
-                          />
-                        </div>
-                        <div>
-                          <div
-                            class="mb-1 font-main text-base font-bold text-white"
-                          >
-                            Brooklyn Simmons
-                          </div>
-                          <div
-                            class="font-main text-base font-bold text-white opacity-60"
-                          >
-                            Logoipsum
-                          </div>
-                        </div>
-                      </div>
-                      <p
-                        class="line-clamp-6 font-main text-base font-bold text-white"
-                      >
-                        Sit ut diam bibendum dolor. Ullamcorper pharetra nibh
-                        eget vitae pulvinar. Placerat sapien, dolor, aenean
-                        vivamus in tincidu
-                      </p>
-                    </article>
-                  </div>
-                  <div class="swiper-slide">
-                    <article
-                      class="rounded border border-brzinc p-6"
-                      data-aos="zoom-in"
-                      data-aos-duration="1000"
-                    >
-                      <div
-                        class="mb-4 flex sm:flex-col sm:items-center md:flex-row"
-                      >
-                        <div
-                          class="h-12 w-12 overflow-hidden rounded-full sm:mb-4 md:mb-0 md:mr-4"
-                        >
-                          <img
-                            class="h-full w-full object-contain object-top"
-                            src="./images/png/user1.png"
-                            alt=""
-                          />
-                        </div>
-                        <div>
-                          <div
-                            class="mb-1 font-main text-base font-bold text-white"
-                          >
-                            Brooklyn Simmons
-                          </div>
-                          <div
-                            class="font-main text-base font-bold text-white opacity-60"
-                          >
-                            Logoipsum
-                          </div>
-                        </div>
-                      </div>
-                      <p
-                        class="line-clamp-6 font-main text-base font-bold text-white"
-                      >
-                        Sit ut diam bibendum dolor. Ullamcorper pharetra nibh
-                        eget vitae pulvinar.
-                      </p>
-                    </article>
-                  </div>
-                  <div class="swiper-slide">
-                    <article
-                      class="rounded border border-brzinc p-6"
-                      data-aos="zoom-in"
-                      data-aos-duration="1000"
-                    >
-                      <div
-                        class="mb-4 flex sm:flex-col sm:items-center md:flex-row"
-                      >
-                        <div
-                          class="h-12 w-12 overflow-hidden rounded-full sm:mb-4 md:mb-0 md:mr-4"
-                        >
-                          <img
-                            class="h-full w-full object-contain object-top"
-                            src="./images/png/user1.png"
-                            alt=""
-                          />
-                        </div>
-                        <div>
-                          <div
-                            class="mb-1 font-main text-base font-bold text-white"
-                          >
-                            Brooklyn Simmons
-                          </div>
-                          <div
-                            class="font-main text-base font-bold text-white opacity-60"
-                          >
-                            Logoipsum
-                          </div>
-                        </div>
-                      </div>
-                      <p
-                        class="line-clamp-6 font-main text-base font-bold text-white"
-                      >
-                        Sit ut diam bibendum dolor. Ullamcorper pharetra nibh
-                        eget vitae pulvinar. Placerat sapien, dolor, aenean
-                        vivamus in tincidunt et. Mauris
-                      </p>
-                    </article>
-                  </div>
-                  <div class="swiper-slide">
-                    <article
-                      class="rounded border border-brzinc p-6"
-                      data-aos="zoom-in"
-                      data-aos-duration="1000"
-                    >
-                      <div
-                        class="mb-4 flex sm:flex-col sm:items-center md:flex-row"
-                      >
-                        <div
-                          class="h-12 w-12 overflow-hidden rounded-full sm:mb-4 md:mb-0 md:mr-4"
-                        >
-                          <img
-                            class="h-full w-full object-contain object-top"
-                            src="./images/png/user1.png"
-                            alt=""
-                          />
-                        </div>
-                        <div>
-                          <div
-                            class="mb-1 font-main text-base font-bold text-white"
-                          >
-                            Brooklyn Simmons
-                          </div>
-                          <div
-                            class="font-main text-base font-bold text-white opacity-60"
-                          >
-                            Logoipsum
-                          </div>
-                        </div>
-                      </div>
-                      <p
-                        class="line-clamp-6 font-main text-base font-bold text-white"
-                      >
-                        Sit ut diam bibendum dolor. Ullamcorper pharetra nibh
-                        eget vitae pulvinar. Placerat sapien, dolor, aenean
-                        vivamus in tincidunt
-                      </p>
-                    </article>
-                  </div>
-                  <div class="swiper-slide">
-                    <article
-                      class="rounded border border-brzinc p-6"
-                      data-aos="zoom-in"
-                      data-aos-duration="1000"
-                    >
-                      <div
-                        class="mb-4 flex sm:flex-col sm:items-center md:flex-row"
-                      >
-                        <div
-                          class="h-12 w-12 overflow-hidden rounded-full sm:mb-4 md:mb-0 md:mr-4"
-                        >
-                          <img
-                            class="h-full w-full object-contain object-top"
-                            src="./images/png/user1.png"
-                            alt=""
-                          />
-                        </div>
-                        <div>
-                          <div
-                            class="mb-1 font-main text-base font-bold text-white"
-                          >
-                            Brooklyn Simmons
-                          </div>
-                          <div
-                            class="font-main text-base font-bold text-white opacity-60"
-                          >
-                            Logoipsum
-                          </div>
-                        </div>
-                      </div>
-                      <p
-                        class="line-clamp-6 font-main text-base font-bold text-white"
-                      >
-                        Sit ut diam bibendum dolor. Ullamcorper pharetra nibh
-                        eget vitae pulvinar. Placerat sapien, dolor, aenean
-                      </p>
-                    </article>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-      <footer class="mt-auto overflow-hidden bg-black p-6">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vector IT Academy</title>
+  <link rel="stylesheet" href="css/aos.css" />
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="bg-main">
+  <div class="flex min-h-screen flex-col">
+    <header class="fixed left-0 right-0 top-0 z-30 lg:w-full" data-aos="fade-down" data-aos-duration="1000">
+      <div class="mx-auto xl:container lg:px-4 xl:px-0">
         <div
-          class="mx-auto xl:container"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-anchor-placement="top-bottom"
-        >
-          <div
-            class="sm:flex sm:flex-col-reverse sm:items-center lg:flex-row lg:justify-between"
-          >
-            <a href="index.html" class="h-7 w-32 sm:mb-8 lg:mb-0 lg:block">
-              <img
-                class="h-full w-full object-contain"
-                src="./images/svg/logo.svg"
-                alt="bu yerda Vektor IT Academy Logotipi bo'lishi mumkin edi!"
-              />
+          class="sm:relative sm:flex sm:flex-col sm:justify-between sm:px-4 sm:py-6 lg:flex-row lg:items-center lg:px-0">
+          <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="index.html" class="block sm:h-5 sm:w-20 lg:h-7 lg:w-32">
+              <img class="h-full w-full object-contain" src="./images/svg/logo.svg"
+                alt="bu yerda Vektor IT Academy Logotipi bo'lishi mumkin edi!" />
             </a>
-            <p
-              class="font-abel text-base font-normal tracking-tight text-white opacity-60 sm:order-first lg:order-1"
-            >
-              Created by Shadient.co
-            </p>
-            <ul class="flex sm:mb-10 lg:mb-0">
-              <li class="mr-8">
-                <a
-                  class="block h-9 w-9 duration-150 hover:scale-x-110 hover:scale-y-110"
-                  href="#!"
-                  ><img
-                    class="h-full w-full object-contain"
-                    src="./images/svg/facebook.svg"
-                    alt=""
-                /></a>
+            <button type="button" aria-expanded="false" aria-controls="main-menu" role="navigation"
+              class="tham tham-e-squeeze tham-w-6 lg:hidden">
+              <div class="tham-box">
+                <div class="tham-inner bg-white"></div>
+              </div>
+            </button>
+          </div>
+          <nav
+            class="nav z-10 duration-300 sm:absolute sm:-right-full sm:top-16 sm:w-full sm:px-4 sm:py-6 lg:static lg:w-auto lg:px-0 lg:py-0">
+            <ul class="sm:flex sm:flex-col lg:flex-row lg:items-center">
+              <li class="sm:mb-6 lg:mb-0 lg:mr-6">
+                <a id="a" onmouseover="hover(a)" onmouseout="normal(a)"
+                  class="flex items-center font-main text-base font-bold capitalize not-italic tracking-wide text-white"
+                  href="#!"><span>Company</span>
+                  <span><img class="ml-1 h-5 w-5 object-contain" src="./images/svg/b-arrow.svg" alt="" /></span>
+                </a>
               </li>
-              <li class="mr-8">
-                <a
-                  class="block h-9 w-9 duration-150 hover:scale-x-110 hover:scale-y-110"
-                  href="https://t.me/vector_academy_uz"
-                  ><img
-                    class="h-full w-full object-contain"
-                    src="./images/svg/telegram.svg"
-                    alt=""
-                /></a>
+              <li class="sm:mb-6 lg:mb-0 lg:mr-6">
+                <a id="a2" onmouseover="hover(a2)" onmouseout="normal(a2)"
+                  class="font-main text-base font-bold capitalize not-italic tracking-wide text-white"
+                  href="about.html">Services</a>
               </li>
-              <li class="mr-8">
-                <a
-                  class="block h-9 w-9 duration-150 hover:scale-x-110 hover:scale-y-110"
-                  href="#!"
-                  ><img
-                    class="h-full w-full object-contain"
-                    src="./images/svg/instagram.svg"
-                    alt=""
-                /></a>
-              </li>
-              <li class="mr-8">
-                <a
-                  class="block h-9 w-9 duration-150 hover:scale-x-110 hover:scale-y-110"
-                  href="#!"
-                  ><img
-                    class="h-full w-full object-contain"
-                    src="./images/svg/youtube.svg"
-                    alt=""
-                /></a>
+              <li class="sm:mb-6 lg:mb-0 lg:mr-6">
+                <a id="a3" onmouseover="hover(a3)" onmouseout="normal(a3)"
+                  class="font-main text-base font-bold capitalize not-italic tracking-wide text-white"
+                  href="singel.html">resources</a>
               </li>
               <li>
-                <a
-                  class="block h-9 w-9 duration-150 hover:scale-x-110 hover:scale-y-110"
-                  href="#!"
-                  ><img
-                    class="h-full w-full object-contain"
-                    src="./images/svg/tel.svg"
-                    alt=""
-                /></a>
+                <a class="inline-block rounded-3xl border-2 border-solid border-orange px-6 py-2 font-main text-sm font-bold uppercase not-italic tracking-wide text-orange duration-150 hover:bg-orange hover:text-black"
+                  href="#!"><span class="align-sub">Sign in</span></a>
               </li>
             </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="pt-24">
+      <section
+        class="overflow-clip bg-quadro bg-cover bg-center bg-no-repeat sm:mb-8 sm:pb-6 md:relative md:mb-0 xl:h-[850px] xl:pb-0">
+        <div class="mx-auto xl:container sm:px-4 sm:pt-10 md:px-0 xl:pt-32">
+          <div class="md:flex md:justify-center">
+            <div data-aos="fade-up" data-aos-duration="1000" class="sm:w-auto md:w-[523px] mega:w-1/2">
+              <h1 class="h1 text mb-3 break-words font-main font-bold text-white sm:text-4xl xl:min-h-72 xl:text-8xl">
+                <!-- Tajribani <span class="text-gradient">tajribalilar</span>dan
+                  oling! -->
+              </h1>
+              <p class="mb-8 font-abel text-base font-normal tracking-wide text-white opacity-60">
+                Risus commodo id odio turpis pharetra elementum. Pulvinar
+                porta porta feugiat scelerisque in elit. Morbi rhoncus,
+                tellus, eros
+              </p>
+              <form action="" class="flex items-center sm:justify-between md:justify-normal">
+                <input required type="text" placeholder="Email"
+                  class="rounded-3xl border-2 border-solid border-brzinc bg-transparent px-3 py-3 font-abel text-base font-normal text-white focus:border-none focus:outline-none focus:outline-orange sm:w-3/4 xl:w-80 mega:w-10/12" />
+                <button type="submit"
+                  class="ml-4 rounded-3xl bg-orange px-5 py-[14.6px] text-center font-main text-sm font-bold uppercase text-black duration-150 hover:opacity-80">
+                  <span class="align-sub">Attract</span>
+                </button>
+              </form>
+            </div>
           </div>
         </div>
-      </footer>
-    </div>
-    <script src="./js/aos.js"></script>
-    <script src="./js/swiper-bundle.min.js"></script>
-    <script src="./js/app.js"></script>
-  </body>
+        <div class="shadow-el"></div>
+        <div class="shadow-el2"></div>
+      </section>
+      <section class="bg-main sm:pb-12 sm:pt-6 md:pt-24 lg:pb-24">
+        <div class="mx-auto xl:container sm:px-4 md:px-0">
+          <h2 class="mb-6 text-center font-main font-bold text-white sm:text-2xl lg:text-h2" data-aos="zoom-in"
+            data-aos-duration="1000">
+            Bizning kurslar
+          </h2>
+          <p class="mx-auto mb-10 text-center font-abel font-normal tracking-wide text-white opacity-60 md:w-6/12"
+            data-aos="zoom-in" data-aos-duration="1000">
+            Biz “Axborot texnologiyalari” sohasida o’z kasbini yanada chuqur
+            ustasi bo’lishni xohlaganlarga bilim va tajriba ulashamiz.
+          </p>
+          <div class="mx-auto grid gap-8 sm:w-auto md:w-10/12 md:grid-cols-2 lg:grid-cols-3">
+            <article class="min-h-52 rounded border border-solid border-brzinc p-5 duration-150 hover:border-orange"
+              data-aos="zoom-in" data-aos-duration="1000">
+              <div class="inner mb-5">
+                <img class="h-12 w-12 object-contain" src="./images/svg/react.svg" alt="" />
+              </div>
+              <div>
+                <h3 class="mb-5 line-clamp-1 font-main text-cardT font-bold text-white">
+                  React.js testing
+                </h3>
+                <p class="line-clamp-3 font-abel text-sm font-normal text-white opacity-60">
+                  Egestas tellus nunc proin amet tellus tincidunt lacus
+                  consequat. Ultrices Egestas tellus nunc proin amet tellus
+                  tincidunt lacus consequat. UltricesEgestas tellus nunc proin
+                  amet tellus tincidunt lacus consequat. Ultrices
+                </p>
+              </div>
+            </article>
+            <article class="min-h-52 rounded border border-solid border-brzinc p-5 duration-150 hover:border-orange"
+              data-aos="zoom-in" data-aos-duration="1000">
+              <div class="mb-5">
+                <img class="h-12 w-12 object-contain" src="./images/svg/verstka.svg" alt="" />
+              </div>
+              <div>
+                <h3 class="mb-5 line-clamp-1 font-main text-[27px] font-bold text-white">
+                  “Verstka” master class
+                </h3>
+                <p class="line-clamp-3 font-abel text-sm font-normal text-white opacity-60">
+                  Egestas tellus nunc proin amet tellus tincidunt lacus
+                  consequat. Ultrices
+                </p>
+              </div>
+            </article>
+            <article class="min-h-52 rounded border border-solid border-brzinc p-5 duration-150 hover:border-orange"
+              data-aos="zoom-in" data-aos-duration="1000">
+              <div class="mb-5">
+                <img class="h-12 w-12 object-contain" src="./images/svg/angular.svg" alt="" />
+              </div>
+              <div>
+                <h3 class="mb-5 line-clamp-1 font-main text-cardT font-bold text-white">
+                  JS, TS va Angular
+                </h3>
+                <p class="line-clamp-3 font-abel text-sm font-normal text-white opacity-60">
+                  Egestas tellus nunc proin amet tellus tincidunt lacus
+                  consequat. Ultrices
+                </p>
+              </div>
+            </article>
+            <article class="min-h-52 rounded border border-solid border-brzinc p-5 duration-150 hover:border-orange"
+              data-aos="zoom-in" data-aos-duration="1000">
+              <div class="mb-5">
+                <img class="h-12 w-12 object-contain" src="./images/svg/nodejs.svg" alt="" />
+              </div>
+              <div>
+                <h3 class="mb-5 line-clamp-1 font-main text-cardT font-bold text-white">
+                  Node.js Advanced
+                </h3>
+                <p class="line-clamp-3 font-abel text-sm font-normal text-white opacity-60">
+                  Egestas tellus nunc proin amet tellus tincidunt lacus
+                  consequat. Ultrices
+                </p>
+              </div>
+            </article>
+            <article class="min-h-52 rounded border border-solid border-brzinc p-5 duration-150 hover:border-orange"
+              data-aos="zoom-in" data-aos-duration="1000">
+              <div class="mb-5">
+                <img class="h-12 w-12 object-contain" src="./images/svg/english.svg" alt="" />
+              </div>
+              <div>
+                <h3 class="mb-5 line-clamp-1 font-main text-cardT font-bold text-white">
+                  Business English
+                </h3>
+                <p class="line-clamp-3 font-abel text-sm font-normal text-white opacity-60">
+                  Egestas tellus nunc proin amet tellus tincidunt lacus
+                  consequat. Ultrices
+                </p>
+              </div>
+            </article>
+            <article class="min-h-52 rounded border border-solid border-brzinc p-5 duration-150 hover:border-orange"
+              data-aos="zoom-in" data-aos-duration="1000">
+              <div class="mb-5">
+                <img class="h-12 w-12 object-contain" src="./images/svg/devops.svg" alt="" />
+              </div>
+              <div>
+                <h3 class="mb-5 line-clamp-1 font-main text-cardT font-bold text-white">
+                  DevOps
+                </h3>
+                <p class="line-clamp-3 font-abel text-sm font-normal text-white opacity-60">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Alias deserunt fugit odio qui fugiat sit voluptatibus
+                  perspiciatis, rem odit. Ducimus aperiam nihil sunt iste
+                  sapiente distinctio pariatur facilis possimus sit.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="bg-black lg:py-20">
+        <div class="mx-auto xl:container sm:px-4 md:px-0">
+          <div class="sm:grid sm:grid-cols-1 sm:gap-0 md:grid-cols-2 md:gap-5">
+            <div class="sm:h-52 md:h-96" data-aos="fade-right" data-aos-duration="1000">
+              <img class="h-full w-full object-contain object-center" src="./images/svg/user.svg" alt="" />
+            </div>
+            <div class="flex items-center" data-aos="fade-left" data-aos-duration="1000">
+              <div class="md:pl-8">
+                <h2 class="mb-4 line-clamp-1 font-main font-bold text-white sm:text-2xl lg:text-h2 lg:leading-10">
+                  Why choose us
+                </h2>
+                <p
+                  class="mb-8 line-clamp-4 w-10/12 font-abel text-base font-normal tracking-tight text-white opacity-60">
+                  Commodo diam vulputate dui proin quis enim nibh. Non integer
+                  ac libero facilisis hendrerit a at. Nisi sem ut sed sed
+                  faucibus at eu elit. Morbi aliquam porttitor mattis
+                  consequat neque, tellus blandit.
+                </p>
+                <a href="#!"
+                  class="block rounded-3xl bg-orange px-5 py-4 font-main text-sm font-bold uppercase text-black duration-150 hover:opacity-80 sm:mx-auto sm:w-40 sm:text-center md:mx-0 md:ml-4">
+                  <span class="align-sub">Let’s connect</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-black pb-16 sm:pt-12 lg:pt-20">
+        <div class="mx-auto xl:container sm:px-4">
+          <div class="sm:grid sm:grid-cols-1 md:grid-cols-2 md:gap-4 justify-items-center items-center">
+            <h2 class="line-clamp-3 font-main font-bold text-white sm:mb-5 sm:text-2xl md:mb-0 lg:text-h2 lg:leading-10"
+              data-aos="fade-right" data-aos-duration="1100">
+              Bizning o'quvchilarimiz ishlaydigan kompaniyalar
+            </h2>
+            <p class="line-clamp-4 font-abel text-base font-normal tracking-tight text-white opacity-60 sm:w-auto md:w-10/12"
+              data-aos="fade-left" data-aos-duration="1100">
+              Bizning IT kurslarimizni tamomlagan o'quvchilar yirik kompaniyalarda yuqori malakali mutaxassis sifatida
+              faoliyat
+              yuritishmoqda. Ular dasturlash, tizim administratsiyasi va dizayn yo'nalishlarida yutuqlarga erishib,
+              innovatsion
+              loyihalarda muvaffaqiyatli ishlamoqda. Siz ham ularning safida bo'lishingiz mumkin!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="overflow-auto bg-black sm:pb-20 md:pb-32">
+        <div class="mx-auto mega:container">
+          <div class="enable-animation">
+            <div class="marquee marquee--hover-pause">
+              <ul class="marquee__content flex items-center">
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/tuning-logo.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/davr-bank.png" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/tecnocorp.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/uniconsoft.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/najot.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/tecnocorp.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/metro.png" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/davr-bank.png" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/uniconsoft.svg" alt="" />
+                </li>
+              </ul>
+              <ul aria-hidden="true" class="marquee__content flex items-center">
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/tecnocorp.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/offmax.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/tuning-logo.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/davr-bank.png" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/uniconsoft.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/metro.png" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/najot.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/eurosoft.png" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/icon2.svg" alt="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="enable-animation-l">
+            <div class="marquee marquee--hover-pause">
+              <ul class="marquee__content flex items-center">
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/umft.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/faceid.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/ishonch.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/zerodev.webp" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/webase.png" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/umft.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/agmk.png" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/smartbase.png " alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/perfectum.svg" alt="" />
+                </li>
+              </ul>
+              <ul aria-hidden="true" class="marquee__content flex items-center">
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/any.png" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/trigo.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/newlok.png" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/urc.png" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/umft.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/logoipsum2.svg" alt="" />
+                </li>
+                <li
+                  class="mr-5 flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/offmax.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/icon.svg" alt="" />
+                </li>
+                <li
+                  class="flex h-18 w-50 items-center justify-center rounded-lg border border-brzinc duration-150 hover:border-orange">
+                  <img class="h-10 w-40 object-contain object-center" src="./images/svg/urc.png" alt="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="relative overflow-y-clip bg-quadro bg-cover bg-top bg-no-repeat pb-9 pt-10">
+        <div class="mx-auto xl:container">
+          <h2 class="text-center font-main font-bold text-white sm:mb-10 sm:text-2xl md:mb-5 md:text-h2"
+            data-aos="fade-down" data-aos-duration="1000">
+            Let’s discuss the idea
+          </h2>
+          <ul class="flex items-center justify-center">
+            <li class="mr-8 duration-150 hover:scale-x-110 hover:scale-y-110">
+              <a class="block sm:h-12 sm:w-12 md:h-68 md:w-68" href="#!" data-aos="fade-right"
+                data-aos-duration="1600"><img class="h-full w-full object-contain" src="./images/svg/facebook.svg"
+                  alt="" /></a>
+            </li>
+            <li class="mr-8 duration-150 hover:scale-x-110 hover:scale-y-110">
+              <a class="block sm:h-12 sm:w-12 md:h-68 md:w-68" href="#!" data-aos="fade-right"
+                data-aos-duration="1300"><img class="h-full w-full object-contain" src="./images/svg/telegram.svg"
+                  alt="" /></a>
+            </li>
+            <li class="mr-8 duration-150 hover:scale-x-110 hover:scale-y-110">
+              <a class="block sm:h-12 sm:w-12 md:h-68 md:w-68" href="#!" data-aos="fade-right"
+                data-aos-duration="1000"><img class="h-full w-full object-contain" src="./images/svg/instagram.svg"
+                  alt="" /></a>
+            </li>
+            <li class="duration-150 hover:scale-x-110 hover:scale-y-110">
+              <a class="block sm:h-12 sm:w-12 md:h-68 md:w-68" href="#!" data-aos="fade-right"
+                data-aos-duration="700"><img class="h-full w-full object-contain" src="./images/svg/youtube.svg"
+                  alt="" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="shadow-el3"></div>
+        <div class="shadow-el4"></div>
+      </section>
+      <section class="bg-main sm:py-8 lg:pb-12 lg:pt-20">
+        <div class="mx-auto xl:container md:px-5 xl:px-0">
+          <!-- Slider main container -->
+          <div>
+            <div class="flex items-center justify-between sm:mb-8 lg:mb-14">
+              <h3 class="font-main text-base font-bold text-white sm:px-4" data-aos="fade-right"
+                data-aos-duration="1000">
+                Hear what our customers say (Sharh)
+              </h3>
+              <!-- If we need navigation buttons -->
+              <div class="justify-center sm:hidden md:flex" data-aos="fade-left" data-aos-duration="1000">
+                <div
+                  class="swiper-button-prev group static mr-6 mt-0 h-15 w-15 rounded border border-orange hover:bg-stone-900">
+                  <img class="h-6 w-6 object-contain duration-150 group-hover:scale-x-150 group-hover:scale-y-150"
+                    src="./images/svg/left-arrow.svg" alt="" />
+                </div>
+                <div
+                  class="swiper-button-next group static mt-0 h-15 w-15 rounded border border-orange hover:bg-stone-900">
+                  <img class="h-5 w-5 object-contain duration-150 group-hover:scale-x-150 group-hover:scale-y-150"
+                    src="./images/svg/right-arrow.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper sm:pl-4 md:pl-0">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <article class="rounded border border-brzinc p-6" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="mb-4 flex sm:flex-col sm:items-center md:flex-row">
+                      <div class="h-12 w-12 overflow-hidden rounded-full sm:mb-4 md:mb-0 md:mr-4">
+                        <img class="h-full w-full object-contain object-top" src="./images/png/user1.png" alt="" />
+                      </div>
+                      <div>
+                        <div class="mb-1 font-main text-base font-bold text-white sm:text-center md:text-left">
+                          Brooklyn Simmons
+                        </div>
+                        <div class="font-main text-base font-bold text-white opacity-60 sm:text-center md:text-left">
+                          Logoipsum
+                        </div>
+                      </div>
+                    </div>
+                    <p class="line-clamp-6 font-main text-base font-bold text-white">
+                      Sit ut diam bibendum dolor. Ullamcorper pharetra nibh
+                      eget vitae pulvinar. Placerat sapien, dolor, aenean
+                      vivamus in tincidunt et. Mauris dolor vestibulum et
+                      lacus a ante orci.
+                    </p>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="rounded border border-brzinc p-6" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="mb-4 flex sm:flex-col sm:items-center md:flex-row">
+                      <div class="h-12 w-12 overflow-hidden rounded-full sm:mb-4 md:mb-0 md:mr-4">
+                        <img class="h-full w-full object-contain object-top" src="./images/png/user1.png" alt="" />
+                      </div>
+                      <div>
+                        <div class="mb-1 font-main text-base font-bold text-white">
+                          Brooklyn Simmons
+                        </div>
+                        <div class="font-main text-base font-bold text-white opacity-60">
+                          Logoipsum
+                        </div>
+                      </div>
+                    </div>
+                    <p class="line-clamp-6 font-main text-base font-bold text-white">
+                      Sit ut diam bibendum dolor. Ullamcorper pharetra nibh
+                      eget vitae pulvinar. Placerat sapien, dolor, aenean
+                      vivamus in tincidunt et.
+                    </p>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="rounded border border-brzinc p-6" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="mb-4 flex sm:flex-col sm:items-center md:flex-row">
+                      <div class="h-12 w-12 overflow-hidden rounded-full sm:mb-4 md:mb-0 md:mr-4">
+                        <img class="h-full w-full object-contain object-top" src="./images/png/user1.png" alt="" />
+                      </div>
+                      <div>
+                        <div class="mb-1 font-main text-base font-bold text-white">
+                          Brooklyn Simmons
+                        </div>
+                        <div class="font-main text-base font-bold text-white opacity-60">
+                          Logoipsum
+                        </div>
+                      </div>
+                    </div>
+                    <p class="line-clamp-6 font-main text-base font-bold text-white">
+                      Sit ut diam bibendum dolor. Ullamcorper pharetra nibh
+                      eget vitae pulvinar. Placerat sapien, dolor, aenean
+                      vivamus in tincidu
+                    </p>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="rounded border border-brzinc p-6" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="mb-4 flex sm:flex-col sm:items-center md:flex-row">
+                      <div class="h-12 w-12 overflow-hidden rounded-full sm:mb-4 md:mb-0 md:mr-4">
+                        <img class="h-full w-full object-contain object-top" src="./images/png/user1.png" alt="" />
+                      </div>
+                      <div>
+                        <div class="mb-1 font-main text-base font-bold text-white">
+                          Brooklyn Simmons
+                        </div>
+                        <div class="font-main text-base font-bold text-white opacity-60">
+                          Logoipsum
+                        </div>
+                      </div>
+                    </div>
+                    <p class="line-clamp-6 font-main text-base font-bold text-white">
+                      Sit ut diam bibendum dolor. Ullamcorper pharetra nibh
+                      eget vitae pulvinar.
+                    </p>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="rounded border border-brzinc p-6" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="mb-4 flex sm:flex-col sm:items-center md:flex-row">
+                      <div class="h-12 w-12 overflow-hidden rounded-full sm:mb-4 md:mb-0 md:mr-4">
+                        <img class="h-full w-full object-contain object-top" src="./images/png/user1.png" alt="" />
+                      </div>
+                      <div>
+                        <div class="mb-1 font-main text-base font-bold text-white">
+                          Brooklyn Simmons
+                        </div>
+                        <div class="font-main text-base font-bold text-white opacity-60">
+                          Logoipsum
+                        </div>
+                      </div>
+                    </div>
+                    <p class="line-clamp-6 font-main text-base font-bold text-white">
+                      Sit ut diam bibendum dolor. Ullamcorper pharetra nibh
+                      eget vitae pulvinar. Placerat sapien, dolor, aenean
+                      vivamus in tincidunt et. Mauris
+                    </p>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="rounded border border-brzinc p-6" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="mb-4 flex sm:flex-col sm:items-center md:flex-row">
+                      <div class="h-12 w-12 overflow-hidden rounded-full sm:mb-4 md:mb-0 md:mr-4">
+                        <img class="h-full w-full object-contain object-top" src="./images/png/user1.png" alt="" />
+                      </div>
+                      <div>
+                        <div class="mb-1 font-main text-base font-bold text-white">
+                          Brooklyn Simmons
+                        </div>
+                        <div class="font-main text-base font-bold text-white opacity-60">
+                          Logoipsum
+                        </div>
+                      </div>
+                    </div>
+                    <p class="line-clamp-6 font-main text-base font-bold text-white">
+                      Sit ut diam bibendum dolor. Ullamcorper pharetra nibh
+                      eget vitae pulvinar. Placerat sapien, dolor, aenean
+                      vivamus in tincidunt
+                    </p>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="rounded border border-brzinc p-6" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="mb-4 flex sm:flex-col sm:items-center md:flex-row">
+                      <div class="h-12 w-12 overflow-hidden rounded-full sm:mb-4 md:mb-0 md:mr-4">
+                        <img class="h-full w-full object-contain object-top" src="./images/png/user1.png" alt="" />
+                      </div>
+                      <div>
+                        <div class="mb-1 font-main text-base font-bold text-white">
+                          Brooklyn Simmons
+                        </div>
+                        <div class="font-main text-base font-bold text-white opacity-60">
+                          Logoipsum
+                        </div>
+                      </div>
+                    </div>
+                    <p class="line-clamp-6 font-main text-base font-bold text-white">
+                      Sit ut diam bibendum dolor. Ullamcorper pharetra nibh
+                      eget vitae pulvinar. Placerat sapien, dolor, aenean
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="mt-auto overflow-hidden bg-black p-6">
+      <div class="mx-auto xl:container" data-aos="fade-up" data-aos-duration="1000"
+        data-aos-anchor-placement="top-bottom">
+        <div class="sm:flex sm:flex-col-reverse sm:items-center lg:flex-row lg:justify-between">
+          <a href="index.html" class="h-7 w-32 sm:mb-8 lg:mb-0 lg:block">
+            <img class="h-full w-full object-contain" src="./images/svg/logo.svg"
+              alt="bu yerda Vektor IT Academy Logotipi bo'lishi mumkin edi!" />
+          </a>
+          <p class="font-abel text-base font-normal tracking-tight text-white opacity-60 sm:order-first lg:order-1">
+            Created by Shadient.co
+          </p>
+          <ul class="flex sm:mb-10 lg:mb-0">
+            <li class="mr-8">
+              <a class="block h-9 w-9 duration-150 hover:scale-x-110 hover:scale-y-110" href="#!"><img
+                  class="h-full w-full object-contain" src="./images/svg/facebook.svg" alt="" /></a>
+            </li>
+            <li class="mr-8">
+              <a class="block h-9 w-9 duration-150 hover:scale-x-110 hover:scale-y-110"
+                href="https://t.me/vector_academy_uz"><img class="h-full w-full object-contain"
+                  src="./images/svg/telegram.svg" alt="" /></a>
+            </li>
+            <li class="mr-8">
+              <a class="block h-9 w-9 duration-150 hover:scale-x-110 hover:scale-y-110" href="#!"><img
+                  class="h-full w-full object-contain" src="./images/svg/instagram.svg" alt="" /></a>
+            </li>
+            <li class="mr-8">
+              <a class="block h-9 w-9 duration-150 hover:scale-x-110 hover:scale-y-110" href="#!"><img
+                  class="h-full w-full object-contain" src="./images/svg/youtube.svg" alt="" /></a>
+            </li>
+            <li>
+              <a class="block h-9 w-9 duration-150 hover:scale-x-110 hover:scale-y-110" href="#!"><img
+                  class="h-full w-full object-contain" src="./images/svg/tel.svg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./js/aos.js"></script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
 </html>
